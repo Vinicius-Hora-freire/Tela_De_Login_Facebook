@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'SFProDisplay-Regular','Freight Sans Bold', Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: var(--cinzaFace);
+    position: relative;
+    display: flex;
+}
+:root{
+    --cinzaFace:#f0f2f5;
+    --cinzaBotao:#1877f2 ;
+    --pretoNegrito:#1C1e21;
+    --pretoDois:#373737;
+    --branco:rgb(255,255,255);
+    --brancodois:#dddfe2;
+    --verde:#42b72a;
+}
+.texto-inicio{
+    position: absolute;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+.texto-inicio img{
+    position:absolute;
+    height: 133px;
+    width:238px;
+    top:142px;
+    left:150px;
+}
+.texto-secundario{
+    position:absolute;
+    top:248px;
+    left:150px;
+}
+.texto-secundario h2{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+.formulario{
+    position: absolute;
+    top:96px;
+    left:745px;
+
+    border:none;
+    border-radius: 8px;
+    width:396px;
+    height: 346px;
+    background-color: var(--branco);
+    box-shadow:rgb(0 0 0 / 10% ) 0px 2px 4px, rgb(0 0 0 / 10%) 0px 8px 16px;
+}
+.input-box{
+    position: absolute;
+    top: 21px;
+    left: 15px;
+}
+
+.email{
+    width: 364px;
+    padding: 14px 16px;
+    font-size:17px;
+    border-radius: 6px;
+    border:1px solid var(--brancodois);
+    outline: none;
+    color: var(--pretoNegrito);
+}
+.email:focus{
+    border-color: var(--brancodois);
+    box-shadow: 0 0 0 1px var(--cinzaBotao);
+}
+.input-senha{
+    position: absolute;
+    top: 82px;
+    left: 15px;
+}
+
+.senha{
+    width: 364px;
+    padding: 14px 16px;
+    font-size:17px;
+    border-radius: 6px;
+    border:1px solid var(--brancodois);
+    outline: none;
+    color: var(--pretoNegrito);
+}
+.senha:focus{
+    border-color: var(--brancodois);
+    box-shadow: 0 0 0 1px var(--cinzaBotao);
+}
+.botao-entrar{
+    position: absolute;
+    top:141px;
+    left: 15px;
+}
+.entrar{
+    padding: 15px;
+    border:none;
+    border-radius: 5px;
+    width: 364px;
+    font-size: 1.1rem;
+    translate: .2s;
+    cursor: pointer;
+    color: var(--branco);
+    background-color: var(--cinzaBotao);
+}
+.formulario a{
+    position: absolute;
+    top:208px;
+    left: 134px;
+    color: var(--cinzaBotao);
+    text-decoration: none;
+    font-size: 14px;
+}
+a:hover{
+    text-decoration: underline;
+}
+hr{
+    position: absolute;
+    top: 248px;
+    left: 17px;
+    width: 93%;
+    border: 1px solid var(--cinzaFace);
+}
+.btn{
+    position: absolute;
+    top: 272px;
+    left: 124px;
+
+    padding: 0 16px;
+    border: none;
+    color: var(--branco);
+    background-color: var(--verde);
+    font-size: 17px;
+    line-height: 47px;
+    border-radius: 6px;
+}
+.paragrafo02{
+    position: absolute;
+    top: 470px;
+    left: 743px;
+    width: 400px;
+    font-size: 14px;
+    text-align: center;
+    color: var(--pretoNegrito);
+}
+a{
+    text-decoration: none;
+    color: var(--pretoNegrito);
+}
